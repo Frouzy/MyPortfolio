@@ -1,0 +1,76 @@
+* {
+	font-family: 'Orbitron', sans-serif;
+}
+
+
+html {
+  background-image: url(images/FotoHome2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#story {
+	font-size: 35px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+* {
+ padding: 25;
+ margin: 25;
+}
+
+.menu {
+ margin-right: 25px;
+ margin-top: 0px;
+ float: right;
+}
+
+.menu ul li {
+ display: inline; 
+ padding: 0 5px;
+ width: 40px;
+}
+
+.menu ul li a, a:link, a:visited, a:active {
+ color: #424242;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+.menu ul li a:hover {
+ color: #FFF;
+}
+
+div.relative {
+    position: relative;
+} 
+
+div.absolute {
+    position: absolute;
+    top: 250px;
+    float: left;
+    margin-left: 100px;
+    width: 300px;
+    height: 100px;
+    font-size: 25px;
+    color: #FAFAFA;
+   font-family: 'Architects Daughter', cursive;
+ }
+
+ div.absolute2 {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 970px;
+    float: right;
+ 
+ }
+
+
+.images {
+	width: 40px;
+	height: 40px;
+	background-color: #FAFAFA;
+}
