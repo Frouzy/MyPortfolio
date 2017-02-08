@@ -11,10 +11,12 @@ html {
   background-size: cover;
 }
 
+
 #story {
-	font-size: 35px;
-	margin-left: 25px;
-	margin-top: 25px;
+  font-size: 35px;
+  margin-left: 25px;
+  margin-top: 40px;
+  width: 600px;
 }
 
 * {
@@ -30,11 +32,12 @@ html {
 
 .menu ul li {
  display: inline; 
- padding: 0 5px;
+ padding: 5px;
  width: 40px;
+
 }
 
-.menu ul li a, a:link, a:visited, a:active {
+.menu ul li a:link, a:visited, a:active {
  color: #424242;
  text-decoration: none;
  font-weight: bold;
@@ -44,9 +47,7 @@ html {
  color: #FFF;
 }
 
-div.relative {
-    position: relative;
-} 
+
 
 div.absolute {
     position: absolute;
@@ -72,5 +73,6 @@ div.absolute {
 .images {
 	width: 40px;
 	height: 40px;
-	background-color: #FAFAFA;
+	background-color: #f49e42;
 }
+
