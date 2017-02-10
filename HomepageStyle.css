@@ -61,18 +61,21 @@ div.absolute {
    font-family: 'Architects Daughter', cursive;
  }
 
- div.absolute2 {
-    position: absolute;
-    margin-top: 600px;
-    margin-left: 970px;
-    float: right;
- 
- }
+div.images {
+  width: 40px;
+  height: 40px;
+  background-color: #FAFAFA;
+  margin-right: 25px;
+  margin-top: 550px;
+  float: right;
+}
 
 
 .images {
 	width: 40px;
 	height: 40px;
-	background-color: #f49e42;
+	background-color: rgba(#fff;
+
+
 }
 

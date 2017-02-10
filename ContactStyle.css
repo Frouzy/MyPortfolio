@@ -4,7 +4,7 @@
 
 
 html {
-  background-color: #ffffff;
+  background-color: #FFF;
 }
 
 
@@ -19,6 +19,7 @@ html {
  padding: 25;
  margin: 25;
 }
+
 .menu {
  margin-right: 25px;
  margin-top: 0px;
@@ -41,13 +42,13 @@ font-weight: bold;
 color: #f49e42;
 }
 
-
-.images {
+div.images {
 	width: 40px;
 	height: 40px;
 	background-color: #FAFAFA;
+	margin-right: 25px;
+	margin-top: 300px;
 	float: right;
-	margin: 10px 15px 30px;
 }
 
 
@@ -59,12 +60,30 @@ a {
 
 
 .verzend {
-	font-size: 16px;
-	color: #424242;
+	font-size: 12px;
+	color: #1e1c19;
 	margin-top: 50px;
+	border-color: #1e1c19;
+
 }
 
 .velden {
-	background-color: #DAE7F3;
+	background-color: #f49e42;
 	width: 200px;
+}
+
+div.form {
+	margin-top: 50px;
+	margin-right: 350px;
+	margin-bottom: 100px;
+	margin-left: 25px;
+	float: left;
+	column-width: 250px;
+}
 	
+div.message {
+	margin-top: 150px;
+	margin-right: 650px;
+	margin-bottom: 100px;
+	margin-left: 25px;
+}
